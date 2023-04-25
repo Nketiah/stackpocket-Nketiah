@@ -1,0 +1,15 @@
+ const fetchData = async (url: string): Promise<any> => {
+
+        const headers = {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer " + userToken
+        }
+        const dataUrl = "http://192.168.199.126/task/apis/allbets.php?data=all"
+        const lotteryNamesurl = "http://192.168.199.126//task/apis/alllotterygames.php"
+
+
+        const response = await axios.get(`${url}`, { headers })
+        const results = await axios.get(`${url}`)
+
+        return [response.data.message, results.data.data]
+    }
