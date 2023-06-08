@@ -1,0 +1,184 @@
+.inputwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+ }
+ .flexitem{
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+ }
+ 
+ .trackWrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 4rem;
+   margin-left: auto;
+   margin-right: auto;
+} 
+
+ .select{
+     border: 1px solid #B4B4B4;
+     border-radius: 7px;
+     padding-top: 0.7rem;
+     padding-bottom: 0.7rem;
+     padding-left: 0.3rem;
+     padding-right: 7rem;
+     outline: none;
+  }
+  .bettingDivider{
+     width: 100%; 
+     height: 1px;
+     border-bottom: 1px solid #707070;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 75rem;
+     margin-top: 2rem;
+  }
+  .filters{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     margin-top: 2rem; 
+  }
+  .filtertime{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+     padding: 0.5rem 0.6rem;
+     border: 1px solid #24ACFA;
+     border-radius: 7px;
+  }
+  .filterdatetime{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid #24ACFA; 
+    border-radius: 7px;
+    padding: 0.5rem 0.6rem;
+    cursor: pointer;
+  }
+  .activeLink {
+     background-color: #4db9f8;
+     color: #FFFFFF;
+     border-radius: 4px;
+     padding: 0.4rem 0.6rem;
+  }
+  .tablewrapper{
+     padding:50px;
+  }
+  .loader{
+   max-width: 10rem;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .customModal{
+   margin-top: 3rem;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 100%;
+   border-radius: 7px;
+ }
+ .tracktitle{
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 30rem;
+   color: #707070;
+   font-size: 18px;
+   display: flex;
+   justify-content: space-around
+ }
+ .divider{
+   width: 100%; 
+   height: 1px;
+   border-bottom: 1px solid #cecdcd;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 80rem;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+/* .trackWrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 8rem;
+   margin-left: auto;
+   margin-right: auto;
+} */
+.trackinfo1 > div {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 5rem;
+   color: #707070;
+   padding: 0.3rem;
+   font-size: 15px;
+}
+.trackinfo2{
+   margin-left: auto;
+   margin-left: auto;
+   width: 70rem;
+}
+.trackdetails {
+   border: 1px solid #b8b8b8;
+   padding-right: 8rem;
+   padding-top: 0.4rem;
+   padding-bottom: 3rem
+}
+.trackvalue{
+   color: #707070;
+   font-weight: 600;
+   font-size: 15px;
+}
+
+
+
+/* styles for CustomUserSelection */
+.data_wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   /* margin-top: 1rem; */
+   /* margin-bottom: 1rem; */
+   color: #707070;
+}
+.customModalBet{
+   margin-top: 3rem;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 70rem
+}
+/* .trackWrapper2 {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 8rem;
+   margin-left: auto;
+   margin-right: auto;
+} */
+.inner_wrapper > section {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   gap: 20rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+.loader {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 5rem;
+}
+.user_selection{
+   border: 1px solid #cecdcd;
+   padding: 2rem;
+   margin-top: 0.5rem;
+   margin-bottom: 3rem;
+}
